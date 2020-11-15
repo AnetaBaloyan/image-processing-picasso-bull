@@ -1,0 +1,2 @@
+# image-processing-picasso-bull
+This repository contains the final project for CS260 Image Processing course. In this project, I am going to use different image processing techniques to obtain the transformations that Picasso obtained creating his famous bull plates. In particular, I am going to work on two transitions: transition from plate 3 to 4 and transition from plate 9 to 10 (the final plate). You can find all the plates in the /Picasso_bull_plates directory.
