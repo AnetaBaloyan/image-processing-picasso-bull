@@ -1,4 +1,3 @@
-### image-processing-picasso-bull
 # Obtaining Picasso's bull transformations
 **Author:** [Aneta Baloyan](https://www.linkedin.com/in/aneta-baloyan/)
 
