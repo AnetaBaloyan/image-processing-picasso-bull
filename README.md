@@ -15,7 +15,36 @@ You can find all the plates in the [_/Picasso-bull-plates_](https://github.com/A
 
 ***
 ## Entry No.1
-<img src="https://latex.codecogs.com/gif.latex?Transformation 3\rightarrow 4" /> 
+<a href="https://www.codecogs.com/eqnedit.php?latex=Transformation&space;\text&space;{&space;}&space;3&space;\rightarrow4" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Transformation&space;\text&space;{&space;}&space;3&space;\rightarrow4" title="Transformation \text { } 3 \rightarrow4" /></a>
 
-<img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/Picasso-bull-plates/picasso_bull_plate_3.jpg"> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/Picasso-bull-plates/picasso_bull_plate_4.jpg">
+<img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/Picasso-bull-plates/picasso_bull_plate_3.jpg" width="400"/> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/Picasso-bull-plates/picasso_bull_plate_4.jpg" width="400"/> 
+
+                                            _(a)_                                                                                             _(b)_
+
+<img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/3-to-4-steps-ImageJ/picasso_bull_plate_3_step_2.jpg" width="400"/> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/3-to-4-steps-ImageJ/picasso_bull_plate_4_step_2.jpg" width="400"/> 
+                                            _(c)_                                                                                             _(d)_
+                                            
+<img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/3-to-4-steps-ImageJ/picasso_bull_plate_4_step_3.jpg" width="400"/> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/3-to-4-steps-python/overlay.jpg" width="400"/> 
+                                            _(e)_                                                                                             _(f)_
+
+**1. Firstly, I tried using _ImageJ_ to experiment with the plates and try out some ideas.** 
+
+* Although ImageJ was meant to ease this proccess, I had trouble finding the tools I need and, at the end of the day, it took me longer to obtain the results I wanted. 
+* However, it was useful at trying to experiment with edge detection and various filters.  
+* Most of my trials with edge detection led to failure. I wanted to detect the white lines that are visible in image _(a)_. You can see from pictures _(c)_ and _(d)_ that there is a lot of noise and many small spots are also detected. However, this is the result of a very quick experimentation, and and later on I got slightly better results, that are not included, because those were still not satisfactory.
+* Nevertheless, I noticed some attributes of the two plates, and realized that several regions are directly cut out from the first plate. It is most visible in the lower back part, where some fraction of the back and the tail is cut out. 
+* I tried to overlay the two edge detection images and check this condition. You can see the result in picture _(e)_.
+
+**2. Then, I decided to switch to _Python_ and _OpenCV_ for more agile experimentations.**
+* I repeated the overlay but this time I just performed the operation with the non-edge-detected grayscale images.
+* I realized that there is a slight shift in the plates as the lines appeared a little off. Indeed, the first image was shifted 3 pixels to the right and upward. After the correction, I got the result in picture _(f)_, where the two are precisely overlayed.
+* From picture _(f)_, where the plate 3 appears in 0.3 opacity and plate 4 appears in 0.7, you can observe that, indeed, the second plate has some areas directly cut off.
+
+
+
+
+
+
+
+
 
