@@ -42,11 +42,25 @@ You can find all the plates in the [_/Picasso-bull-plates_](https://github.com/A
 * After the correction, I got the result in picture _(f)_, where the two plates are precisely overlayed.
 * From picture _(f)_, where the plate 3 appears in 0.3 opacity and plate 4 appears in 0.7, you can observe that, indeed, the second plate has some areas simply removed.
 
+***
+***
+## Entry No.2
 
+In this entry, I use the information obtained during Entry 1, and build on it to achieve the 3 -> 4 transformation. The process is described in a Power Point presentation [Entry-2.pptx](https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/Entry-2.pptx) (I know it's rough but it was convenient). All the steps are attached in the folder [/entry-2](https://github.com/AnetaBaloyan/image-processing-picasso-bull/tree/main/entry-2).
+Here are some steps to the final result.
 
+<img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_3_ellipse.jpg" width="400"/> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_4_elipse.jpg" width="400"/>
 
+<img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_3_half_cut.jpg" width="400"/> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_3_half_cut_center_of_mass.jpg" width="400"/>
 
+<img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_3_spine_and_central_ine.jpg" width="400"/> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_3_new_head.jpg" width="400"/> 
 
+<img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_3_final.jpg" width="400"/> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_4_no_ground.jpg" width="400"/> 
+
+For the detailed explanation of each step, please refer to the [presentation](https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/Entry-2.pptx).
+
+***
+### Thank you for your interest!
 
 
 
