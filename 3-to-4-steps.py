@@ -25,10 +25,10 @@ alpha = 0.3
 beta = (1.0 - alpha)
 overlay = cv.addWeighted(bull3, alpha, bull4, beta, 0.0)
 
-# Save the state.
-log_overlay = os.path.normpath(os.path.join(step_log, 'overlay.jpg'))
-# print(log_overlay)
-cv.imwrite(log_overlay, overlay)
+# # Save the state.
+# log_overlay = os.path.normpath(os.path.join(step_log, 'overlay.jpg'))
+# # print(log_overlay)
+# cv.imwrite(log_overlay, overlay)
 
 # cv.imshow('Progress', overlay)
 
