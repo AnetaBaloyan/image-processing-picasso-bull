@@ -74,6 +74,7 @@ Here are some steps to the final result.
 In this entry, I am further investigating the issue of the unexpected center of mass. 
 
 * I use Python in this part to write my own function for calculating a **weighted center of mass** and change the vertical reference line to a more intuitive and naturally explainable one: the vertical line going through the midpoint of the **frontal and back legs**.
+
 <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-2/picasso_bull_plate_3_center_of_mass.jpg" width="350"/> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F58%2FOcticons-arrow-small-right.svg%2F180px-Octicons-arrow-small-right.svg.png&f=1&nofb=1" width="40"/> <img src="https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/entry-3/jpg/picasso_bull_plate_3_vertical_axis.jpg" width="350"/>
 
 * Please see the Power Point presentation [Entry-3.pptx](https://github.com/AnetaBaloyan/image-processing-picasso-bull/blob/main/Entry-3.pptx) for more detailed explanation.
